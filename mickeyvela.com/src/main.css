@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;600&display=swap");
+
+.container {
+  position: fixed;
+  font-family: "Saira", sans-serif;
+  font-size: 16px;
+  letter-spacing: 4px;
+  color: #486781;
+}
+.displayFlex {
+    display: flex;
+  }
+  .justifyContentCenter {
+    justify-content: center;
+  }
