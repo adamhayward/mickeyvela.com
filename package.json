@@ -2,7 +2,7 @@
   "name": "mickeyvela.com",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mickeyvela.com/",
+  "homepage": "https://adamhayward.github.io/mickeyvela.com/",
   
   "dependencies": {
     "@react-pdf/renderer": "^2.1.1",
