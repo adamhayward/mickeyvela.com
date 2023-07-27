@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import { Document, Page } from "react-pdf";
 // import { PDFDownloadLink} from '@react-pdf/render';
 
-import resumePDF from "../../resume.pdf";
+
+
+import letterPDF from "../../VelaReferrenceLetters.pdf";
+
 
 import "../../main.css";
 import "./resume.css";
@@ -13,7 +16,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 
-export default function Resume(props) {
+export default function Referrences(props) {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
 
@@ -42,7 +45,7 @@ export default function Resume(props) {
             <Document
               className="displayFlex justifyContentCenter"
               style={{ width: "100%", hiegth: "unset" }}
-              file={resumePDF}
+              file={letterPDF}
               options={{ workerSrc: "/pdf.worker.js" }}
               onLoadSuccess={onDocumentLoadSuccess}
             >
@@ -67,7 +70,7 @@ export default function Resume(props) {
         </Col>
         <Col xs={6} md={4}>
           <div id="pageDisplay">
-            Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
+            Letter {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
           </div>
         </Col>
         <Col xs={3} md={4}>

@@ -78,9 +78,11 @@
   background-color: #F6ECE9;
   -webkit-box-shadow: 0px 5px 10px 0px #2d323885;
   box-shadow: 0px 5px 10px 0px #2d323885;
-  color: white;
   font-size: 16px;
   transition: top 0.25s;
+}
+#btnResume a {
+  color: initial;
 }
 
 #btnResume:hover {
@@ -88,6 +90,11 @@
   -webkit-box-shadow: none;
   box-shadow: none;
   background-color: #A9736D;
+  color:white;
+
+}
+#btnResume a:hover {
+  color:white;
 }
 .icon {
   position: relative;
