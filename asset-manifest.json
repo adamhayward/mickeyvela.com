@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b67c8e3d.chunk.css",
-    "main.js": "/static/js/main.01a7aaf3.chunk.js",
-    "main.js.map": "/static/js/main.01a7aaf3.chunk.js.map",
+    "main.js": "/static/js/main.a1a79395.chunk.js",
+    "main.js.map": "/static/js/main.a1a79395.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b249054b.js",
     "runtime-main.js.map": "/static/js/runtime-main.b249054b.js.map",
     "static/css/2.a2d043b3.chunk.css": "/static/css/2.a2d043b3.chunk.css",
@@ -12,6 +12,7 @@
     "static/css/2.a2d043b3.chunk.css.map": "/static/css/2.a2d043b3.chunk.css.map",
     "static/css/main.b67c8e3d.chunk.css.map": "/static/css/main.b67c8e3d.chunk.css.map",
     "static/js/2.8d551ec8.chunk.js.LICENSE.txt": "/static/js/2.8d551ec8.chunk.js.LICENSE.txt",
+    "static/media/MickeyVelaResume.bb8ec423.pdf": "/static/media/MickeyVelaResume.bb8ec423.pdf",
     "static/media/Review1.6761592f.jpeg": "/static/media/Review1.6761592f.jpeg",
     "static/media/Review10.735d86cb.jpeg": "/static/media/Review10.735d86cb.jpeg",
     "static/media/Review11.4b5d1a8f.jpeg": "/static/media/Review11.4b5d1a8f.jpeg",
@@ -34,13 +35,13 @@
     "static/media/Review9.eba54e24.jpeg": "/static/media/Review9.eba54e24.jpeg",
     "static/media/VelaReferrenceLetters.7b983ad1.pdf": "/static/media/VelaReferrenceLetters.7b983ad1.pdf",
     "static/media/arrow.131bf020.svg": "/static/media/arrow.131bf020.svg",
-    "static/media/resume.dd70cd75.pdf": "/static/media/resume.dd70cd75.pdf"
+    "static/media/mickeyVelaLogo.2b540e0e.PNG": "/static/media/mickeyVelaLogo.2b540e0e.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.b249054b.js",
     "static/css/2.a2d043b3.chunk.css",
     "static/js/2.8d551ec8.chunk.js",
     "static/css/main.b67c8e3d.chunk.css",
-    "static/js/main.01a7aaf3.chunk.js"
+    "static/js/main.a1a79395.chunk.js"
   ]
 }
