@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Document, Page } from "react-pdf";
 // import { PDFDownloadLink} from '@react-pdf/render';
 
-import resumePDF from "../../resume.pdf";
+import resumePDF from "../../MickeyVelaResume.pdf";
 
 import "../../main.css";
 import "./resume.css";

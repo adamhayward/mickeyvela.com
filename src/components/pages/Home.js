@@ -5,18 +5,20 @@ import '../../main.css'
 import "./home.css";
 import {Row, Col, Button} from "react-bootstrap";
 
+import Logo from "../../images/mickeyVelaLogo.PNG"
+
 
 
 export default function Home() {
   return (
       <Row>
         <Col id="headShotCol" xs={12} sm={4}>
-          {/* <img
+          <img
             id="headShotImg"
-            src={headShot}
+            src={Logo}
             className="img-responsive"
             alt="Adam Hayward posing in a suit"
-          /> */}
+          />
         </Col>
         <Col
           id="greetingCol"
