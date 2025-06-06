@@ -1,6 +1,6 @@
 // import Swiper core and required modules
 import { Pagination, Autoplay } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Row, Col } from "react-bootstrap";
 
@@ -26,10 +26,14 @@ import Review19 from "../../images/Review19.jpeg";
 import Review20 from "../../images/Review20.jpeg";
 
 // Import Swiper styles
-import "swiper/swiper.min.css";
-import "swiper/modules/pagination/pagination.min.css";
-import "swiper/modules/navigation/navigation.min.css";
-import "swiper/modules/scrollbar/scrollbar.min.css";
+// import "swiper/swiper.min.css";
+// import "swiper/modules/pagination/pagination.min.css";
+// import "swiper/modules/navigation/navigation.min.css";
+// import "swiper/modules/scrollbar/scrollbar.min.css";
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 export default function Reviews() {
   const review = [
