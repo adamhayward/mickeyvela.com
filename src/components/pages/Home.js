@@ -17,7 +17,7 @@ export default function Home() {
             id="headShotImg"
             src={Logo}
             className="img-responsive"
-            alt="Adam Hayward posing in a suit"
+            alt="Mickey Vela Logo"
           />
         </Col>
         <Col
