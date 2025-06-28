@@ -57,15 +57,15 @@ export default function Home() {
               </Col>
             </Row>
             <Row>
-              <Col className="displayFlex justifyContentCenter " xs={12} xl={4}>              
+              <Col className="displayFlex justifyContentCenter " xs={12} xl={6}>              
                 <Button id="btnResume"><Link style={{textDecoration:"none"}} to="/resume">View My Resume</Link></Button>
               </Col>
-              <Col className="displayFlex justifyContentCenter " xs={12} xl={4}>              
+              <Col className="displayFlex justifyContentCenter " xs={12} xl={6}>              
                 <Button id="btnResume"><Link style={{textDecoration:"none"}} to="/reviews">View My Reviews</Link></Button>
               </Col>
-              <Col className="displayFlex justifyContentCenter " xs={12} xl={4}>              
+              {/* <Col className="displayFlex justifyContentCenter " xs={12} xl={4}>              
                 <Button id="btnResume"><Link style={{textDecoration:"none",}} to="/referrences">View My Recommendations</Link></Button>
-              </Col>
+              </Col> */}
             </Row>
 
             <Row>
